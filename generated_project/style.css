@@ -1,0 +1,25 @@
+
+/* Basic Box-sizing Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Global Body Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Vibrant gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure body takes full viewport height for centering */
+    color: #333; /* Default text color */
+}
+
+/* H1 Styles */
+h1 {
+    font-size: 3em; /* Larger font size */
+    color: #fff; /* White color for contrast on the vibrant background */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
